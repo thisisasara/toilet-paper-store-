@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.background{
+    z-index:-99999;
+    position: absolute;
+    opacity:0.8;
+}
+.title{
+    z-index:9999;
+    position: absolute;
+    padding:50px;
+    font-size:40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.title img{
+  margin-bottom:-1vw;
+}
+
+
+h1{
+  font-family: 'Baloo Tammudu 2', sans-serif;
+  z-index: 9999999999999;
+  font-size:1.2vw;
+  line-height: 2.2vw;
+  font-weight: 500;
+  margin-top:2vw;
+}
+
+.uploadOuter {
+  position: absolute;
+  margin-left:2vw;
+  margin-top: 20vw;
+  font-family:sans-serif;
+  }
+
+
+  .dragBox {
+    width: 12vw;
+    height: 18vw;
+    margin: 0 auto;
+    margin-top:-3vw;
+    margin-left:46vw;
+    position: absolute;
+    text-align: center;
+    color: black;
+    border: 2px dashed #ccc;
+    display: inline-block;
+    transition: transform 0.3s;
+    font-family: 'Baloo Tammudu 2', sans-serif;
+    z-index: 9999999999999;
+    font-size:2vw;
+    line-height: 3vw;
+  }
+
+  .dragBox input[type="file"] {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    top: 0;
+    left: 0;
+  }
+  .draging {
+    transform: scale(1.1);
+  }
+  .drop{
+    display:hidden;
+  }
+  #preview {
+    top:0vw;
+    position:absolute;
+    text-align: center;
+    z-index: 9999999999999;
+    background-color:#f8f8f8;
+    left:46.5vw;
+    width:15vw;
+    
+  }
+
+  #preview img {
+    position: relative;
+    width: 12vw;;
+    display:block;
+      margin-top:3vw;
+      z-index: 9999999999999;
+      left:10%;
+      /* margin-left:40vw; */
+
+  }
+
+  #proxytrigger{
+      position: absolute;
+      padding-left:30vw;
+      margin-top:8vw;
+      z-index:10;
+      width:40vw;
+      overflow:hidden;
+      height:55vw;
+  }
+
+  .toilet{
+    position: absolute;
+    margin-top:22vw;
+    margin-left:8vw;
+  }
+  #paper{
+    top:-5vw;
+    position: absolute;
+  }
+
+
+  #proxy {
+    display: none;
+  }
+
+  .t{
+    margin-left:3vw;
+    margin-top:-3vw;
+  }
